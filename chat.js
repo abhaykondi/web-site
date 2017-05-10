@@ -16,7 +16,7 @@ var ChatEngine = function() {
     };
     //Setting user name
     this.setName = function() {
-        name = prompt("Enter your name:", "tejas");
+        name = prompt("Enter your username:", "tejas");
         if (!name || name === "") {
             name = "tejas";
         }
