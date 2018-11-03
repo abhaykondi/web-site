@@ -42,7 +42,7 @@ function login(){
 
 function fun(){
 
-
+window.alert("Error : " + errorMessage);
 }
 
 function logout(){
