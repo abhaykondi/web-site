@@ -40,6 +40,11 @@ function login(){
 
 }
 
+function fun(){
+
+
+}
+
 function logout(){
   firebase.auth().signOut();
 }
